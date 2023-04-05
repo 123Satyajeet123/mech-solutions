@@ -1,0 +1,13 @@
+Hello this is my assignment website made using Next.js framework of react.
+I wasn't able to complete it due to time constraints.
+
+Features implemented->
+1) multiple pages (home contact about us).
+2) A image slideshow in the main home screen.
+3) Some css transition hover effects.
+
+How to run to ->
+go to mech-solutions directory and then run "npm run dev" without quotes
+
+Thank You..
+Satyajeet

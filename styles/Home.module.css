@@ -1,0 +1,73 @@
+.intro {
+    padding: 5px;
+    margin: 18rem;
+    margin-top: 1rem;
+    margin-bottom: 3px;
+}
+
+.introp {
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+.team {
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 100px;
+    background-color: rgb(18, 18, 18);
+    height: 400px;
+}
+
+.member {
+    border: 1px solid black;
+    border-radius: 1.5rem;
+    font-size: 2.3rem;
+    height: 300px;
+    margin: 3rem;
+    padding: 10px;
+    transition: scale 0.5s;
+    cursor: pointer;
+    background-color:rgb(255, 255, 255);
+}
+.member:hover{
+    scale: 1.1;
+}
+
+.slider{
+    position:relative;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right_arrow{
+    position: absolute;
+    top:50%;
+    right: 32px;
+    font-size: 3rem;
+    color:black;
+    z-index:10;
+    cursor:pointer;
+    user-select: none;
+}
+.left_arrow{
+    position: absolute;
+    top:50%;
+    left: 32px;
+    font-size: 3rem;
+    color:black;
+    z-index:10;
+    cursor:pointer;
+    user-select: none;
+}
+.slide{
+    opacity: 0;
+    transition-duration: 1s ease;
+}
+.slide_active{
+    opacity: 1;
+    transition-duration: 1s;
+    transform: scale(1.08);
+}

@@ -1,0 +1,11 @@
+.container{
+    border: 1px solid black;
+    margin: 3rem 3rem;
+    padding: 2rem 8rem;
+    transition: scale 1s;
+    margin-bottom: 398px;
+}
+.container:hover{
+    box-shadow: 5px 5px black;
+    scale: 1.01;
+}
